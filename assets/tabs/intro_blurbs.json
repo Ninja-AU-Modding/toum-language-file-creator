@@ -488,5 +488,19 @@
     "value": "Rampage to kill everyone",
     "color": "#955a24",
     "xml": "<string name=\"TouRoleWerewolfIntroBlurb\">%s</string>"
+  },
+  {
+    "title": "Time Lord",
+    "image": "TimeLord.png",
+    "value": "Rewind time",
+    "color": "#8183ca",
+    "xml": "<string name=\"TouRoleTimeLordIntroBlurb\">%s</string>"
+  },
+  {
+    "title": "Soul Collector",
+    "image": "SoulCollector.png",
+    "value": "Reap the souls out of Crewmates",
+    "color": "#99ffcc",
+    "xml": "<string name=\"TouRoleSoulCollectorIntroBlurb\">%s</string>"
   }
 ]

@@ -488,5 +488,33 @@
     "value": "The Werewolf is a Neutral Killing role that wins by being the last killer alive. They can go on a rampage to gain the ability to kill.",
     "color": "#955a24",
     "xml": "<string name=\"TouRoleWerewolfWikiDescription\">%s</string>"
+  },
+  {
+    "title": "Fairy",
+    "image": "Fairy.png",
+    "value": "The Fairy is a Neutral Benign that needs to protect their target (signified by \\%symbol\\%) from getting killed/ejected.",
+    "color": "#aef0f6",
+    "xml": "<string name=\"TouRoleFairyWikiDescription\">%s</string>"
+  },
+  {
+    "title": "Time Lord",
+    "image": "TimeLord.png",
+    "value": "The Time Lord is a Crewmate Power role that can rewind time, forcing every player to retrace their steps for a short duration.",
+    "color": "#8183ca",
+    "xml": "<string name=\"TouRoleTimeLordWikiDescription\">%s</string>"
+  },
+  {
+    "title": "Executioner",
+    "image": "Executioner.png",
+    "value": "The Executioner is a Neutral Evil role that wins by getting their target (signified by \\%symbol\\%) ejected in a meeting.",
+    "color": "#643b1f",
+    "xml": "<string name=\"TouRoleExecutionerWikiDescription\">%s</string>"
+  },
+  {
+    "title": "Soul Collector",
+    "image": "SoulCollector.png",
+    "value": "The Soul Collector is a Neutral Killing role that takes the soul of players. Instead of leaving a body behind, they leave behind a soul-less decoy that looks identical to the reaped player, standing still.",
+    "color": "#99ffcc",
+    "xml": "<string name=\"TouRoleSoulCollectorWikiDescription\">%s</string>"
   }
 ]

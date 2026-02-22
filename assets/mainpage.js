@@ -1,5 +1,5 @@
-let TABS = []; // index: [{name, link}]
-let CACHE = {}; // loaded + edited entries, keyed by tab index
+let TABS = [];
+let CACHE = {};
 let cur = 0;
 
 fetch("assets/tabs.json")

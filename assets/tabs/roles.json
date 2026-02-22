@@ -488,5 +488,33 @@
     "value": "Werewolf",
     "color": "#955a24",
     "xml": "<string name=\"TouRoleWerewolf\">%s</string>"
+  },
+  {
+    "title": "Fairy",
+    "image": "Fairy.png",
+    "value": "Fairy",
+    "color": "#aef0f6",
+    "xml": "<string name=\"TouRoleFairy\">%s</string>"
+  },
+  {
+    "title": "Time Lord",
+    "image": "TimeLord.png",
+    "value": "Time Lord",
+    "color": "#8183ca",
+    "xml": "<string name=\"TouRoleTimeLord\">%s</string>"
+  },
+  {
+    "title": "Executioner",
+    "image": "Executioner.png",
+    "value": "Executioner",
+    "color": "#643b1f",
+    "xml": "<string name=\"TouRoleExecutioner\">%s</string>"
+  },
+  {
+    "title": "Soul Collector",
+    "image": "SoulCollector.png",
+    "value": "Soul Collector",
+    "color": "#99ffcc",
+    "xml": "<string name=\"TouRoleSoulCollector\">%s</string>"
   }
 ]

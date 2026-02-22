@@ -488,5 +488,33 @@
     "value": "Rampage to kill quickly, increase your\\%nl\\%vision, and vent away temporarily",
     "color": "#955a24",
     "xml": "<string name=\"TouRoleWerewolfTabDescription\">%s</string>"
+  },
+  {
+    "title": "Fairy",
+    "image": "Fairy.png",
+    "value": "Protect \\%target\\% with your life!",
+    "color": "#aef0f6",
+    "xml": "<string name=\"TouRoleFairyTabDescription\">%s</string>"
+  },
+  {
+    "title": "Time Lord",
+    "image": "TimeLord.png",
+    "value": "Use Rewind to pull everyone back a few seconds.",
+    "color": "#8183ca",
+    "xml": "<string name=\"TouRoleTimeLordTabDescription\">%s</string>"
+  },
+  {
+    "title": "Executioner",
+    "image": "Executioner.png",
+    "value": "Get \\%target\\% voted out to win.",
+    "color": "#643b1f",
+    "xml": "<string name=\"TouRoleExecutionerTabDescription\">%s</string>"
+  },
+  {
+    "title": "Soul Collector",
+    "image": "SoulCollector.png",
+    "value": "Reap the souls of others, leaving behind a lasting image",
+    "color": "#99ffcc",
+    "xml": "<string name=\"TouRoleSoulCollectorTabDescription\">%s</string>"
   }
 ]
