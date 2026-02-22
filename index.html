@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mira Language File Creator</title>
+        <link rel="stylesheet" href="/assets/starbg.css" />
+        <script
+            src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+        <style>
+            @font-face {
+                font-family: 'Brook';
+                src: url('/assets/BrookDemo.woff') format('woff');
+            }
+            body       { font-family: 'Space Mono', monospace; }
+            .font-brook { font-family: 'Brook', monospace; }
+
+            .card-glow {
+                transition: transform 0.2s ease, box-shadow 0.3s ease;
+            }
+            .card-glow:hover {
+                transform: scale(1.03);
+            }
+        </style>
+    </head>
+    <body class="text-white min-h-screen px-6 pt-8 pb-40">
+        <div id="stars"></div>
+        <div id="stars2"></div>
+        <div id="stars3"></div>
+
+        <!-- Tab header -->
+        <div class="flex items-center justify-center gap-4 mb-1.5">
+            <button id="btn-prev"
+                class="font-brook text-[28px] text-[#d62828] bg-transparent border-none cursor-pointer px-1 transition-transform hover:scale-110 active:scale-95 select-none">
+                &#9665;
+            </button>
+            <div id="tab-name"
+                class="font-brook text-[28px] tracking-[3px] min-w-[280px] text-center"></div>
+            <button id="btn-next"
+                class="font-brook text-[28px] text-[#d62828] bg-transparent border-none cursor-pointer px-1 transition-transform hover:scale-110 active:scale-95 select-none">
+                &#9655;
+            </button>
+        </div>
+
+        <!-- Tab dots -->
+        <div id="tab-dots"
+            class="flex justify-center gap-1.5 mb-7 pb-1 border-b-[3px] border-white/20"></div>
+
+        <!-- Cards -->
+        <div id="cards-grid" class="flex flex-wrap gap-5"></div>
+
+        <!-- Bottom bar -->
+        <div
+            class="fixed bottom-0 left-0 right-0 bg-black/80 backdrop-blur border-t border-white/10 px-6 py-2.5 flex items-center gap-3">
+            <pre id="xml-out"
+                class="flex-1 text-[10px] text-[#7ec8a4] border border-white/10 bg-black/60 px-3.5 py-2.5 max-h-[100px] overflow-y-auto whitespace-pre"></pre>
+            <button id="btn-export"
+                class="font-brook text-[20px] px-4 py-2 border-2 border-[#d62828] text-white cursor-pointer tracking-wide whitespace-nowrap shadow-[0_0_12px_rgba(214,40,40,0.4)] hover:bg-[#d62828]/20 hover:shadow-[0_0_20px_rgba(214,40,40,0.7)] transition-all">
+                EXPORT XML
+            </button>
+        </div>
+
+        <!-- Card template — styled like role-card -->
+        <template id="card-template">
+            <div
+                class="card-glow flex flex-col items-center p-3 rounded-xl border-2 w-40 relative cursor-pointer"
+                style="background-color: #000;">
+                <div
+                    class="card-title font-brook text-[24px] font-bold text-white mb-1 text-center break-all"></div>
+                <div
+                    class="card-img w-20 h-20 my-1 flex items-center justify-center rounded-lg overflow-hidden cursor-pointer">
+                    <span class="font-brook text-[24px] text-[#888]">IMG</span>
+                </div>
+                <input type="text"
+                    class="card-input mt-1 text-[24px] w-full bg-black/40 border border-white/10 text-white px-2 py-1 rounded outline-none text-center focus:border-white/40 transition-colors"
+                    placeholder="value...">
+            </div>
+        </template>
+
+        <script src="assets/mainpage.js"></script>
+    </body>
+</html>

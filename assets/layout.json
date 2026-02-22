@@ -1,0 +1,108 @@
+{
+  "tabs": [
+    {
+      "name": "Roles",
+      "entries": [
+        {
+          "title": "Altruist",
+          "image": "Altruist.png",
+          "value": "Altruist",
+          "color": "#660000",
+          "xml": "<string name=\"TouRoleAltruist\">%s</string>"
+        },
+        {
+          "title": "Aurial",
+          "image": "Aurial.png",
+          "value": "Aurial",
+          "color": "#b34d99",
+          "xml": "<string name=\"TouRoleAurial\">%s</string>"
+        },
+        {
+          "title": "Cleric",
+          "image": "Cleric.png",
+          "value": "Cleric",
+          "color": "#00ffb2",
+          "xml": "<string name=\"TouRoleCleric\">%s</string>"
+        }
+      ]
+    },
+    {
+      "name": "Intro Blurbs",
+      "entries": [
+        {
+          "title": "Altruist",
+          "image": "Altruist.png",
+          "value": "Revive dead crewmates",
+          "color": "#660000",
+          "xml": "<string name=\"TouRoleAltruistIntroBlurb\">%s</string>"
+        },
+        {
+          "title": "Aurial",
+          "image": "Aurial.png",
+          "value": "Sense disturbances in your aura.",
+          "color": "#b34d99",
+          "xml": "<string name=\"TouRoleAurialIntroBlurb\">%s</string>"
+        },
+        {
+          "title": "Cleric",
+          "image": "Cleric.png",
+          "value": "Save the crewmates",
+          "color": "#00ffb2",
+          "xml": "<string name=\"TouRoleClericIntroBlurb\">%s</string>"
+        }
+      ]
+    },
+    {
+      "name": "Tab Descriptions",
+      "entries": [
+        {
+          "title": "Altruist",
+          "image": "Altruist.png",
+          "value": "Revive dead crewmates in groups.",
+          "color": "#660000",
+          "xml": "<string name=\"TouRoleAltruistTabDescription\">%s</string>"
+        },
+        {
+          "title": "Aurial",
+          "image": "Aurial.png",
+          "value": "Any player abilities used within your aura you will sense",
+          "color": "#b34d99",
+          "xml": "<string name=\"TouRoleAurialTabDescription\">%s</string>"
+        },
+        {
+          "title": "Cleric",
+          "image": "Cleric.png",
+          "value": "Cleanse negative effects off of crewmates and\\%nl\\%cast Barriers to stop any interactions altogether",
+          "color": "#00ffb2",
+          "xml": "<string name=\"TouRoleClericTabDescription\">%s</string>"
+        }
+      ]
+    },
+        {
+      "name": "Wiki Descriptions",
+      "entries": [
+        {
+          "title": "Altruist",
+          "image": "Altruist.png",
+          "value": "The Altruist is a Crewmate Protective role that can revive dead crewmates, but prevents meetings being called by themselves or the crewmates they revive.",
+          "color": "#660000",
+          "xml": "<string name=\"TouRoleAltruistWikiDescription\">%s</string>"
+        },
+        {
+          "title": "Aurial",
+          "image": "Aurial.png",
+          "value": "The Aurial is a Crewmate Investigative role that will be alerted whenever a player near them uses one of their abilities.",
+          "color": "#b34d99",
+          "xml": "<string name=\"TouRoleAurialWikiDescription\">%s</string>"
+        },
+        {
+          "title": "Cleric",
+          "image": "Cleric.png",
+          "value": "The Cleric is a Crewmate Protective that can protect crewmates by negating their negative effects, as well as placing barriers on them to prevent interactions.",
+          "color": "#00ffb2",
+          "xml": "<string name=\"TouRoleClericWikiDescription\">%s</string>"
+        }
+      ]
+    }
+  ]
+}
