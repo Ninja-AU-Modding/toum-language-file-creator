@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Roles",
+    "link": "assets/tabs/roles.json"
+  },
+  {
+    "name": "Intro Blurbs",
+    "link": "assets/tabs/intro_blurbs.json"
+  },
+  {
+    "name": "Tab Descriptions",
+    "link": "assets/tabs/tab_descriptions.json"
+  },
+  {
+    "name": "Wiki Descriptions",
+    "link": "assets/tabs/wiki_descriptions.json"
+  }
+]

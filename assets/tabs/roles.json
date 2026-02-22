@@ -1,0 +1,492 @@
+[
+  {
+    "title": "Spectator",
+    "image": "Spectator.png",
+    "value": "Spectator",
+    "color": "#afafaf",
+    "xml": "<string name=\"TouRoleSpectator\">%s</string>"
+  },
+  {
+    "title": "Altruist",
+    "image": "Altruist.png",
+    "value": "Altruist",
+    "color": "#660000",
+    "xml": "<string name=\"TouRoleAltruist\">%s</string>"
+  },
+  {
+    "title": "Aurial",
+    "image": "Aurial.png",
+    "value": "Aurial",
+    "color": "#b34d99",
+    "xml": "<string name=\"TouRoleAurial\">%s</string>"
+  },
+  {
+    "title": "Cleric",
+    "image": "Cleric.png",
+    "value": "Cleric",
+    "color": "#00ffb2",
+    "xml": "<string name=\"TouRoleCleric\">%s</string>"
+  },
+  {
+    "title": "Deputy",
+    "image": "Deputy.png",
+    "value": "Deputy",
+    "color": "#ffcc00",
+    "xml": "<string name=\"TouRoleDeputy\">%s</string>"
+  },
+  {
+    "title": "Forensic",
+    "image": "Forensic.png",
+    "value": "Forensic",
+    "color": "#4d4dff",
+    "xml": "<string name=\"TouRoleForensic\">%s</string>"
+  },
+  {
+    "title": "Engineer",
+    "image": "Engineer.png",
+    "value": "Engineer",
+    "color": "#fea50a",
+    "xml": "<string name=\"TouRoleEngineer\">%s</string>"
+  },
+  {
+    "title": "Haunter",
+    "image": "Haunter.png",
+    "value": "Haunter",
+    "color": "#d4d4d4",
+    "xml": "<string name=\"TouRoleHaunter\">%s</string>"
+  },
+  {
+    "title": "Hunter",
+    "image": "Hunter.png",
+    "value": "Hunter",
+    "color": "#29ab87",
+    "xml": "<string name=\"TouRoleHunter\">%s</string>"
+  },
+  {
+    "title": "Imitator",
+    "image": "Imitator.png",
+    "value": "Imitator",
+    "color": "#b3d94d",
+    "xml": "<string name=\"TouRoleImitator\">%s</string>"
+  },
+  {
+    "title": "Investigator",
+    "image": "Investigator.png",
+    "value": "Investigator",
+    "color": "#008787",
+    "xml": "<string name=\"TouRoleInvestigator\">%s</string>"
+  },
+  {
+    "title": "Jailor",
+    "image": "Jailor.png",
+    "value": "Jailor",
+    "color": "#a9a9a9",
+    "xml": "<string name=\"TouRoleJailor\">%s</string>"
+  },
+  {
+    "title": "Lookout",
+    "image": "Lookout.png",
+    "value": "Lookout",
+    "color": "#33ff66",
+    "xml": "<string name=\"TouRoleLookout\">%s</string>"
+  },
+  {
+    "title": "Mayor",
+    "image": "Mayor.png",
+    "value": "Mayor",
+    "color": "#6c4ca1",
+    "xml": "<string name=\"TouRoleMayor\">%s</string>"
+  },
+  {
+    "title": "Medic",
+    "image": "Medic.png",
+    "value": "Medic",
+    "color": "#006600",
+    "xml": "<string name=\"TouRoleMedic\">%s</string>"
+  },
+  {
+    "title": "Medium",
+    "image": "Medium.png",
+    "value": "Medium",
+    "color": "#a680ff",
+    "xml": "<string name=\"TouRoleMedium\">%s</string>"
+  },
+  {
+    "title": "Mirrorcaster",
+    "image": "Mirrorcaster.png",
+    "value": "Mirrorcaster",
+    "color": "#90a2c3",
+    "xml": "<string name=\"TouRoleMirrorcaster\">%s</string>"
+  },
+  {
+    "title": "Monarch",
+    "image": "Monarch.png",
+    "value": "Monarch",
+    "color": "#ea535b",
+    "xml": "<string name=\"TouRoleMonarch\">%s</string>"
+  },
+  {
+    "title": "Mystic",
+    "image": "Mystic.png",
+    "value": "Mystic",
+    "color": "#4d99e6",
+    "xml": "<string name=\"TouRoleMystic\">%s</string>"
+  },
+  {
+    "title": "Oracle",
+    "image": "Oracle.png",
+    "value": "Oracle",
+    "color": "#bf00bf",
+    "xml": "<string name=\"TouRoleOracle\">%s</string>"
+  },
+  {
+    "title": "Plumber",
+    "image": "Plumber.png",
+    "value": "Plumber",
+    "color": "#c16000",
+    "xml": "<string name=\"TouRolePlumber\">%s</string>"
+  },
+  {
+    "title": "Politician",
+    "image": "Politician.png",
+    "value": "Politician",
+    "color": "#660099",
+    "xml": "<string name=\"TouRolePolitician\">%s</string>"
+  },
+  {
+    "title": "Prosecutor",
+    "image": "Prosecutor.png",
+    "value": "Prosecutor",
+    "color": "#b38000",
+    "xml": "<string name=\"TouRoleProsecutor\">%s</string>"
+  },
+  {
+    "title": "Seer",
+    "image": "Seer.png",
+    "value": "Seer",
+    "color": "#ffcc80",
+    "xml": "<string name=\"TouRoleSeer\">%s</string>"
+  },
+  {
+    "title": "Sentry",
+    "image": "Sentry.png",
+    "value": "Sentry",
+    "color": "#6090bf",
+    "xml": "<string name=\"TouRoleSentry\">%s</string>"
+  },
+  {
+    "title": "Sheriff",
+    "image": "Sheriff.png",
+    "value": "Sheriff",
+    "color": "#ffeb04",
+    "xml": "<string name=\"TouRoleSheriff\">%s</string>"
+  },
+  {
+    "title": "Snitch",
+    "image": "Snitch.png",
+    "value": "Snitch",
+    "color": "#d4b038",
+    "xml": "<string name=\"TouRoleSnitch\">%s</string>"
+  },
+  {
+    "title": "Spy",
+    "image": "Spy.png",
+    "value": "Spy",
+    "color": "#cca3cc",
+    "xml": "<string name=\"TouRoleSpy\">%s</string>"
+  },
+  {
+    "title": "Swapper",
+    "image": "Swapper.png",
+    "value": "Swapper",
+    "color": "#66e666",
+    "xml": "<string name=\"TouRoleSwapper\">%s</string>"
+  },
+  {
+    "title": "Sonar",
+    "image": "Sonar.png",
+    "value": "Sonar",
+    "color": "#009800",
+    "xml": "<string name=\"TouRoleSonar\">%s</string>"
+  },
+  {
+    "title": "Transporter",
+    "image": "Transporter.png",
+    "value": "Transporter",
+    "color": "#31e0ef",
+    "xml": "<string name=\"TouRoleTransporter\">%s</string>"
+  },
+  {
+    "title": "Trapper",
+    "image": "Trapper.png",
+    "value": "Trapper",
+    "color": "#a6d1b3",
+    "xml": "<string name=\"TouRoleTrapper\">%s</string>"
+  },
+  {
+    "title": "Veteran",
+    "image": "Veteran.png",
+    "value": "Veteran",
+    "color": "#998040",
+    "xml": "<string name=\"TouRoleVeteran\">%s</string>"
+  },
+  {
+    "title": "Vigilante",
+    "image": "Vigilante.png",
+    "value": "Vigilante",
+    "color": "#ffff99",
+    "xml": "<string name=\"TouRoleVigilante\">%s</string>"
+  },
+  {
+    "title": "Warden",
+    "image": "Warden.png",
+    "value": "Warden",
+    "color": "#9900ff",
+    "xml": "<string name=\"TouRoleWarden\">%s</string>"
+  },
+  {
+    "title": "Ambassador",
+    "image": "Ambassador.png",
+    "value": "Ambassador",
+    "color": "#d53f42",
+    "xml": "<string name=\"TouRoleAmbassador\">%s</string>"
+  },
+  {
+    "title": "Ambusher",
+    "image": "Ambusher.png",
+    "value": "Ambusher",
+    "color": "#d53f42",
+    "xml": "<string name=\"TouRoleAmbusher\">%s</string>"
+  },
+  {
+    "title": "Blackmailer",
+    "image": "Blackmailer.png",
+    "value": "Blackmailer",
+    "color": "#d53f42",
+    "xml": "<string name=\"TouRoleBlackmailer\">%s</string>"
+  },
+  {
+    "title": "Bomber",
+    "image": "Bomber.png",
+    "value": "Bomber",
+    "color": "#d53f42",
+    "xml": "<string name=\"TouRoleBomber\">%s</string>"
+  },
+  {
+    "title": "Eclipsal",
+    "image": "Eclipsal.png",
+    "value": "Eclipsal",
+    "color": "#d53f42",
+    "xml": "<string name=\"TouRoleEclipsal\">%s</string>"
+  },
+  {
+    "title": "Escapist",
+    "image": "Escapist.png",
+    "value": "Escapist",
+    "color": "#d53f42",
+    "xml": "<string name=\"TouRoleEscapist\">%s</string>"
+  },
+  {
+    "title": "Grenadier",
+    "image": "Grenadier.png",
+    "value": "Grenadier",
+    "color": "#d53f42",
+    "xml": "<string name=\"TouRoleGrenadier\">%s</string>"
+  },
+  {
+    "title": "Hypnotist",
+    "image": "Hypnotist.png",
+    "value": "Hypnotist",
+    "color": "#d53f42",
+    "xml": "<string name=\"TouRoleHypnotist\">%s</string>"
+  },
+  {
+    "title": "Janitor",
+    "image": "Janitor.png",
+    "value": "Janitor",
+    "color": "#d53f42",
+    "xml": "<string name=\"TouRoleJanitor\">%s</string>"
+  },
+  {
+    "title": "Miner",
+    "image": "Miner.png",
+    "value": "Miner",
+    "color": "#d53f42",
+    "xml": "<string name=\"TouRoleMiner\">%s</string>"
+  },
+  {
+    "title": "Morphling",
+    "image": "Morphling.png",
+    "value": "Morphling",
+    "color": "#d53f42",
+    "xml": "<string name=\"TouRoleMorphling\">%s</string>"
+  },
+  {
+    "title": "Parasite",
+    "image": "Parasite.png",
+    "value": "Parasite",
+    "color": "#d53f42",
+    "xml": "<string name=\"TouRoleParasite\">%s</string>"
+  },
+  {
+    "title": "Scavenger",
+    "image": "Scavenger.png",
+    "value": "Scavenger",
+    "color": "#d53f42",
+    "xml": "<string name=\"TouRoleScavenger\">%s</string>"
+  },
+  {
+    "title": "Puppeteer",
+    "image": "Puppeteer.png",
+    "value": "Puppeteer",
+    "color": "#d53f42",
+    "xml": "<string name=\"TouRolePuppeteer\">%s</string>"
+  },
+  {
+    "title": "Spellslinger",
+    "image": "Spellslinger.png",
+    "value": "Spellslinger",
+    "color": "#d53f42",
+    "xml": "<string name=\"TouRoleSpellslinger\">%s</string>"
+  },
+  {
+    "title": "Swooper",
+    "image": "Swooper.png",
+    "value": "Swooper",
+    "color": "#d53f42",
+    "xml": "<string name=\"TouRoleSwooper\">%s</string>"
+  },
+  {
+    "title": "Traitor",
+    "image": "Traitor.png",
+    "value": "Traitor",
+    "color": "#d53f42",
+    "xml": "<string name=\"TouRoleTraitor\">%s</string>"
+  },
+  {
+    "title": "Undertaker",
+    "image": "Undertaker.png",
+    "value": "Undertaker",
+    "color": "#d53f42",
+    "xml": "<string name=\"TouRoleUndertaker\">%s</string>"
+  },
+  {
+    "title": "Venerer",
+    "image": "Venerer.png",
+    "value": "Venerer",
+    "color": "#d53f42",
+    "xml": "<string name=\"TouRoleVenerer\">%s</string>"
+  },
+  {
+    "title": "Warlock",
+    "image": "Warlock.png",
+    "value": "Warlock",
+    "color": "#d53f42",
+    "xml": "<string name=\"TouRoleWarlock\">%s</string>"
+  },
+  {
+    "title": "Amnesiac",
+    "image": "Amnesiac.png",
+    "value": "Amnesiac",
+    "color": "#80b3ff",
+    "xml": "<string name=\"TouRoleAmnesiac\">%s</string>"
+  },
+  {
+    "title": "Arsonist",
+    "image": "Arsonist.png",
+    "value": "Arsonist",
+    "color": "#ff4c00",
+    "xml": "<string name=\"TouRoleArsonist\">%s</string>"
+  },
+  {
+    "title": "Doomsayer",
+    "image": "Doomsayer.png",
+    "value": "Doomsayer",
+    "color": "#00ff80",
+    "xml": "<string name=\"TouRoleDoomsayer\">%s</string>"
+  },
+  {
+    "title": "Glitch",
+    "image": "Glitch.png",
+    "value": "Glitch",
+    "color": "#00ff00",
+    "xml": "<string name=\"TouRoleGlitch\">%s</string>"
+  },
+  {
+    "title": "Inquisitor",
+    "image": "Inquisitor.png",
+    "value": "Inquisitor",
+    "color": "#ce3e89",
+    "xml": "<string name=\"TouRoleInquisitor\">%s</string>"
+  },
+  {
+    "title": "Chef",
+    "image": "Chef.png",
+    "value": "Chef",
+    "color": "#daa267",
+    "xml": "<string name=\"TouRoleChef\">%s</string>"
+  },
+  {
+    "title": "Jester",
+    "image": "Jester.png",
+    "value": "Jester",
+    "color": "#ffbfcc",
+    "xml": "<string name=\"TouRoleJester\">%s</string>"
+  },
+  {
+    "title": "Juggernaut",
+    "image": "Juggernaut.png",
+    "value": "Juggernaut",
+    "color": "#8c004c",
+    "xml": "<string name=\"TouRoleJuggernaut\">%s</string>"
+  },
+  {
+    "title": "Mercenary",
+    "image": "Mercenary.png",
+    "value": "Mercenary",
+    "color": "#8c6699",
+    "xml": "<string name=\"TouRoleMercenary\">%s</string>"
+  },
+  {
+    "title": "Pestilence",
+    "image": "Pestilence.png",
+    "value": "Pestilence",
+    "color": "#5f6870",
+    "xml": "<string name=\"TouRolePestilence\">%s</string>"
+  },
+  {
+    "title": "Spectre",
+    "image": "Spectre.png",
+    "value": "Spectre",
+    "color": "#662961",
+    "xml": "<string name=\"TouRoleSpectre\">%s</string>"
+  },
+  {
+    "title": "Plaguebearer",
+    "image": "Plaguebearer.png",
+    "value": "Plaguebearer",
+    "color": "#e6ffb3",
+    "xml": "<string name=\"TouRolePlaguebearer\">%s</string>"
+  },
+  {
+    "title": "Survivor",
+    "image": "Survivor.png",
+    "value": "Survivor",
+    "color": "#ffe64d",
+    "xml": "<string name=\"TouRoleSurvivor\">%s</string>"
+  },
+  {
+    "title": "Vampire",
+    "image": "Vampire.png",
+    "value": "Vampire",
+    "color": "#a22929",
+    "xml": "<string name=\"TouRoleVampire\">%s</string>"
+  },
+  {
+    "title": "Werewolf",
+    "image": "Werewolf.png",
+    "value": "Werewolf",
+    "color": "#955a24",
+    "xml": "<string name=\"TouRoleWerewolf\">%s</string>"
+  }
+]

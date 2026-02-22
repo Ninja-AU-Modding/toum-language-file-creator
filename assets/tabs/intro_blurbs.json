@@ -1,0 +1,492 @@
+[
+  {
+    "title": "Spectator",
+    "image": "Spectator.png",
+    "value": "Watch the chaos from afar",
+    "color": "#afafaf",
+    "xml": "<string name=\"TouRoleSpectatorIntroBlurb\">%s</string>"
+  },
+  {
+    "title": "Altruist",
+    "image": "Altruist.png",
+    "value": "Revive dead crewmates",
+    "color": "#660000",
+    "xml": "<string name=\"TouRoleAltruistIntroBlurb\">%s</string>"
+  },
+  {
+    "title": "Aurial",
+    "image": "Aurial.png",
+    "value": "Sense disturbances in your aura.",
+    "color": "#b34d99",
+    "xml": "<string name=\"TouRoleAurialIntroBlurb\">%s</string>"
+  },
+  {
+    "title": "Cleric",
+    "image": "Cleric.png",
+    "value": "Save the crewmates",
+    "color": "#00ffb2",
+    "xml": "<string name=\"TouRoleClericIntroBlurb\">%s</string>"
+  },
+  {
+    "title": "Deputy",
+    "image": "Deputy.png",
+    "value": "Camp crewmates to catch their killer",
+    "color": "#ffcc00",
+    "xml": "<string name=\"TouRoleDeputyIntroBlurb\">%s</string>"
+  },
+  {
+    "title": "Forensic",
+    "image": "Forensic.png",
+    "value": "Inspect crime scenes to find the killer",
+    "color": "#4d4dff",
+    "xml": "<string name=\"TouRoleForensicIntroBlurb\">%s</string>"
+  },
+  {
+    "title": "Engineer",
+    "image": "Engineer.png",
+    "value": "Maintain important systems on the ship",
+    "color": "#fea50a",
+    "xml": "<string name=\"TouRoleEngineerIntroBlurb\">%s</string>"
+  },
+  {
+    "title": "Haunter",
+    "image": "Haunter.png",
+    "value": "Reveal the impostors postmortem!",
+    "color": "#d4d4d4",
+    "xml": "<string name=\"TouRoleHaunterIntroBlurb\">%s</string>"
+  },
+  {
+    "title": "Hunter",
+    "image": "Hunter.png",
+    "value": "Stalk the \\%color=#FF0000FF\\%Impostors\\%/color\\%",
+    "color": "#29ab87",
+    "xml": "<string name=\"TouRoleHunterIntroBlurb\">%s</string>"
+  },
+  {
+    "title": "Imitator",
+    "image": "Imitator.png",
+    "value": "Use the dead to benefit the Crew",
+    "color": "#b3d94d",
+    "xml": "<string name=\"TouRoleImitatorIntroBlurb\">%s</string>"
+  },
+  {
+    "title": "Investigator",
+    "image": "Investigator.png",
+    "value": "Find evildoers by tracing footsteps",
+    "color": "#008787",
+    "xml": "<string name=\"TouRoleInvestigatorIntroBlurb\">%s</string>"
+  },
+  {
+    "title": "Jailor",
+    "image": "Jailor.png",
+    "value": "Jail and execute \\%color=#FF0000FF\\%evildoers\\%/color\\%",
+    "color": "#a9a9a9",
+    "xml": "<string name=\"TouRoleJailorIntroBlurb\">%s</string>"
+  },
+  {
+    "title": "Lookout",
+    "image": "Lookout.png",
+    "value": "Keep your eyes wide open",
+    "color": "#33ff66",
+    "xml": "<string name=\"TouRoleLookoutIntroBlurb\">%s</string>"
+  },
+  {
+    "title": "Mayor",
+    "image": "Mayor.png",
+    "value": "Reveal yourself to save the Crew",
+    "color": "#6c4ca1",
+    "xml": "<string name=\"TouRoleMayorIntroBlurb\">%s</string>"
+  },
+  {
+    "title": "Medic",
+    "image": "Medic.png",
+    "value": "Create a shield to protect a Crewmate",
+    "color": "#006600",
+    "xml": "<string name=\"TouRoleMedicIntroBlurb\">%s</string>"
+  },
+  {
+    "title": "Medium",
+    "image": "Medium.png",
+    "value": "Watch the spooky ghosts",
+    "color": "#a680ff",
+    "xml": "<string name=\"TouRoleMediumIntroBlurb\">%s</string>"
+  },
+  {
+    "title": "Mirrorcaster",
+    "image": "Mirrorcaster.png",
+    "value": "Reflect attacks onto others",
+    "color": "#90a2c3",
+    "xml": "<string name=\"TouRoleMirrorcasterIntroBlurb\">%s</string>"
+  },
+  {
+    "title": "Monarch",
+    "image": "Monarch.png",
+    "value": "Knight Crewmates to give extra votes",
+    "color": "#ea535b",
+    "xml": "<string name=\"TouRoleMonarchIntroBlurb\">%s</string>"
+  },
+  {
+    "title": "Mystic",
+    "image": "Mystic.png",
+    "value": "Know when and where kills happen",
+    "color": "#4d99e6",
+    "xml": "<string name=\"TouRoleMysticIntroBlurb\">%s</string>"
+  },
+  {
+    "title": "Oracle",
+    "image": "Oracle.png",
+    "value": "Get Crewmates to confess their sins",
+    "color": "#bf00bf",
+    "xml": "<string name=\"TouRoleOracleIntroBlurb\">%s</string>"
+  },
+  {
+    "title": "Plumber",
+    "image": "Plumber.png",
+    "value": "Kick out the pesky venters onboard",
+    "color": "#c16000",
+    "xml": "<string name=\"TouRolePlumberIntroBlurb\">%s</string>"
+  },
+  {
+    "title": "Politician",
+    "image": "Politician.png",
+    "value": "Campaign to become the Mayor!",
+    "color": "#660099",
+    "xml": "<string name=\"TouRolePoliticianIntroBlurb\">%s</string>"
+  },
+  {
+    "title": "Prosecutor",
+    "image": "Prosecutor.png",
+    "value": "Exile players of your choosing",
+    "color": "#b38000",
+    "xml": "<string name=\"TouRoleProsecutorIntroBlurb\">%s</string>"
+  },
+  {
+    "title": "Seer",
+    "image": "Seer.png",
+    "value": "Reveal the alliance of others",
+    "color": "#ffcc80",
+    "xml": "<string name=\"TouRoleSeerIntroBlurb\">%s</string>"
+  },
+  {
+    "title": "Sentry",
+    "image": "Sentry.png",
+    "value": "Deploy cameras to monitor the map",
+    "color": "#6090bf",
+    "xml": "<string name=\"TouRoleSentryIntroBlurb\">%s</string>"
+  },
+  {
+    "title": "Sheriff",
+    "image": "Sheriff.png",
+    "value": "Shoot the \\%color=#FF0000FF\\%Evildoers\\%/color\\%",
+    "color": "#ffeb04",
+    "xml": "<string name=\"TouRoleSheriffIntroBlurb\">%s</string>"
+  },
+  {
+    "title": "Snitch",
+    "image": "Snitch.png",
+    "value": "Find the \\%color=#FF0000FF\\%Impostors\\%/color\\%!",
+    "color": "#d4b038",
+    "xml": "<string name=\"TouRoleSnitchIntroBlurb\">%s</string>"
+  },
+  {
+    "title": "Spy",
+    "image": "Spy.png",
+    "value": "Snoop around and find out",
+    "color": "#cca3cc",
+    "xml": "<string name=\"TouRoleSpyIntroBlurb\">%s</string>"
+  },
+  {
+    "title": "Swapper",
+    "image": "Swapper.png",
+    "value": "Swap votes to save the Crew!",
+    "color": "#66e666",
+    "xml": "<string name=\"TouRoleSwapperIntroBlurb\">%s</string>"
+  },
+  {
+    "title": "Sonar",
+    "image": "Sonar.png",
+    "value": "Sense everyone's movement",
+    "color": "#009800",
+    "xml": "<string name=\"TouRoleSonarIntroBlurb\">%s</string>"
+  },
+  {
+    "title": "Transporter",
+    "image": "Transporter.png",
+    "value": "Choose Two Players To Swap Locations",
+    "color": "#31e0ef",
+    "xml": "<string name=\"TouRoleTransporterIntroBlurb\">%s</string>"
+  },
+  {
+    "title": "Trapper",
+    "image": "Trapper.png",
+    "value": "Identify what roles are in play",
+    "color": "#a6d1b3",
+    "xml": "<string name=\"TouRoleTrapperIntroBlurb\">%s</string>"
+  },
+  {
+    "title": "Veteran",
+    "image": "Veteran.png",
+    "value": "Alert to attack upon interactions",
+    "color": "#998040",
+    "xml": "<string name=\"TouRoleVeteranIntroBlurb\">%s</string>"
+  },
+  {
+    "title": "Vigilante",
+    "image": "Vigilante.png",
+    "value": "Kill \\%color=#FF0000FF\\%Evildoers\\%/color\\% by guessing them!",
+    "color": "#ffff99",
+    "xml": "<string name=\"TouRoleVigilanteIntroBlurb\">%s</string>"
+  },
+  {
+    "title": "Warden",
+    "image": "Warden.png",
+    "value": "Fortify Crewmates",
+    "color": "#9900ff",
+    "xml": "<string name=\"TouRoleWardenIntroBlurb\">%s</string>"
+  },
+  {
+    "title": "Ambassador",
+    "image": "Ambassador.png",
+    "value": "Lead the \\%color=#FF0000FF\\%Impostors\\%/color\\% to victory",
+    "color": "#d53f42",
+    "xml": "<string name=\"TouRoleAmbassadorIntroBlurb\">%s</string>"
+  },
+  {
+    "title": "Ambusher",
+    "image": "Ambusher.png",
+    "value": "Kidnap Crewmates into the shadows",
+    "color": "#d53f42",
+    "xml": "<string name=\"TouRoleAmbusherIntroBlurb\">%s</string>"
+  },
+  {
+    "title": "Blackmailer",
+    "image": "Blackmailer.png",
+    "value": "Silence Crewmates during meetings",
+    "color": "#d53f42",
+    "xml": "<string name=\"TouRoleBlackmailerIntroBlurb\">%s</string>"
+  },
+  {
+    "title": "Bomber",
+    "image": "Bomber.png",
+    "value": "Drop bombs to multi-kill Crewmates.",
+    "color": "#d53f42",
+    "xml": "<string name=\"TouRoleBomberIntroBlurb\">%s</string>"
+  },
+  {
+    "title": "Eclipsal",
+    "image": "Eclipsal.png",
+    "value": "Block out the light",
+    "color": "#d53f42",
+    "xml": "<string name=\"TouRoleEclipsalIntroBlurb\">%s</string>"
+  },
+  {
+    "title": "Escapist",
+    "image": "Escapist.png",
+    "value": "Get away from kills with ease",
+    "color": "#d53f42",
+    "xml": "<string name=\"TouRoleEscapistIntroBlurb\">%s</string>"
+  },
+  {
+    "title": "Grenadier",
+    "image": "Grenadier.png",
+    "value": "Hinder the Crewmates' vision",
+    "color": "#d53f42",
+    "xml": "<string name=\"TouRoleGrenadierIntroBlurb\">%s</string>"
+  },
+  {
+    "title": "Hypnotist",
+    "image": "Hypnotist.png",
+    "value": "Hypnotize Crewmates",
+    "color": "#d53f42",
+    "xml": "<string name=\"TouRoleHypnotistIntroBlurb\">%s</string>"
+  },
+  {
+    "title": "Janitor",
+    "image": "Janitor.png",
+    "value": "Sanitize the ship",
+    "color": "#d53f42",
+    "xml": "<string name=\"TouRoleJanitorIntroBlurb\">%s</string>"
+  },
+  {
+    "title": "Miner",
+    "image": "Miner.png",
+    "value": "From the top, Make it drop, That's a vent",
+    "color": "#d53f42",
+    "xml": "<string name=\"TouRoleMinerIntroBlurb\">%s</string>"
+  },
+  {
+    "title": "Morphling",
+    "image": "Morphling.png",
+    "value": "Transform into Crewmates",
+    "color": "#d53f42",
+    "xml": "<string name=\"TouRoleMorphlingIntroBlurb\">%s</string>"
+  },
+  {
+    "title": "Parasite",
+    "image": "Parasite.png",
+    "value": "Overtake and control players",
+    "color": "#d53f42",
+    "xml": "<string name=\"TouRoleParasiteIntroBlurb\">%s</string>"
+  },
+  {
+    "title": "Scavenger",
+    "image": "Scavenger.png",
+    "value": "Hunt down your prey",
+    "color": "#d53f42",
+    "xml": "<string name=\"TouRoleScavengerIntroBlurb\">%s</string>"
+  },
+  {
+    "title": "Puppeteer",
+    "image": "Puppeteer.png",
+    "value": "Control the hands of others",
+    "color": "#d53f42",
+    "xml": "<string name=\"TouRolePuppeteerIntroBlurb\">%s</string>"
+  },
+  {
+    "title": "Spellslinger",
+    "image": "Spellslinger.png",
+    "value": "Hex the crew to trigger a Hex Bomb",
+    "color": "#d53f42",
+    "xml": "<string name=\"TouRoleSpellslingerIntroBlurb\">%s</string>"
+  },
+  {
+    "title": "Swooper",
+    "image": "Swooper.png",
+    "value": "Turn invisible temporarily",
+    "color": "#d53f42",
+    "xml": "<string name=\"TouRoleSwooperIntroBlurb\">%s</string>"
+  },
+  {
+    "title": "Traitor",
+    "image": "Traitor.png",
+    "value": "Betray the Crewmates!",
+    "color": "#d53f42",
+    "xml": "<string name=\"TouRoleTraitorIntroBlurb\">%s</string>"
+  },
+  {
+    "title": "Undertaker",
+    "image": "Undertaker.png",
+    "value": "Drag bodies to hide them away",
+    "color": "#d53f42",
+    "xml": "<string name=\"TouRoleUndertakerIntroBlurb\">%s</string>"
+  },
+  {
+    "title": "Venerer",
+    "image": "Venerer.png",
+    "value": "Enhance your abilities with every kill",
+    "color": "#d53f42",
+    "xml": "<string name=\"TouRoleVenererIntroBlurb\">%s</string>"
+  },
+  {
+    "title": "Warlock",
+    "image": "Warlock.png",
+    "value": "Charge up your kill button to multi-kill",
+    "color": "#d53f42",
+    "xml": "<string name=\"TouRoleWarlockIntroBlurb\">%s</string>"
+  },
+  {
+    "title": "Amnesiac",
+    "image": "Amnesiac.png",
+    "value": "Remember the role of a deceased player",
+    "color": "#80b3ff",
+    "xml": "<string name=\"TouRoleAmnesiacIntroBlurb\">%s</string>"
+  },
+  {
+    "title": "Arsonist",
+    "image": "Arsonist.png",
+    "value": "Douse players and ignite the light",
+    "color": "#ff4c00",
+    "xml": "<string name=\"TouRoleArsonistIntroBlurb\">%s</string>"
+  },
+  {
+    "title": "Doomsayer",
+    "image": "Doomsayer.png",
+    "value": "Guess players' roles to win!",
+    "color": "#00ff80",
+    "xml": "<string name=\"TouRoleDoomsayerIntroBlurb\">%s</string>"
+  },
+  {
+    "title": "Glitch",
+    "image": "Glitch.png",
+    "value": "Murder, Mimic, Hack... Data Lost",
+    "color": "#00ff00",
+    "xml": "<string name=\"TouRoleGlitchIntroBlurb\">%s</string>"
+  },
+  {
+    "title": "Inquisitor",
+    "image": "Inquisitor.png",
+    "value": "Vanquish the Heretics!",
+    "color": "#ce3e89",
+    "xml": "<string name=\"TouRoleInquisitorIntroBlurb\">%s</string>"
+  },
+  {
+    "title": "Chef",
+    "image": "Chef.png",
+    "value": "Fresh and ready to serve",
+    "color": "#daa267",
+    "xml": "<string name=\"TouRoleChefIntroBlurb\">%s</string>"
+  },
+  {
+    "title": "Jester",
+    "image": "Jester.png",
+    "value": "Get yourself voted out!",
+    "color": "#ffbfcc",
+    "xml": "<string name=\"TouRoleJesterIntroBlurb\">%s</string>"
+  },
+  {
+    "title": "Juggernaut",
+    "image": "Juggernaut.png",
+    "value": "Lower your cooldown with every kill.",
+    "color": "#8c004c",
+    "xml": "<string name=\"TouRoleJuggernautIntroBlurb\">%s</string>"
+  },
+  {
+    "title": "Mercenary",
+    "image": "Mercenary.png",
+    "value": "Commit bribery to win with others",
+    "color": "#8c6699",
+    "xml": "<string name=\"TouRoleMercenaryIntroBlurb\">%s</string>"
+  },
+  {
+    "title": "Pestilence",
+    "image": "Pestilence.png",
+    "value": "Horseman of the Apocalypse!",
+    "color": "#5f6870",
+    "xml": "<string name=\"TouRolePestilenceIntroBlurb\">%s</string>"
+  },
+  {
+    "title": "Spectre",
+    "image": "Spectre.png",
+    "value": "Use your second chance to win",
+    "color": "#662961",
+    "xml": "<string name=\"TouRoleSpectreIntroBlurb\">%s</string>"
+  },
+  {
+    "title": "Plaguebearer",
+    "image": "Plaguebearer.png",
+    "value": "Spread plague to become \\%color=#4D4D4DFF\\%Pestilence\\%/color\\%",
+    "color": "#e6ffb3",
+    "xml": "<string name=\"TouRolePlaguebearerIntroBlurb\">%s</string>"
+  },
+  {
+    "title": "Survivor",
+    "image": "Survivor.png",
+    "value": "Do whatever it takes to live.",
+    "color": "#ffe64d",
+    "xml": "<string name=\"TouRoleSurvivorIntroBlurb\">%s</string>"
+  },
+  {
+    "title": "Vampire",
+    "image": "Vampire.png",
+    "value": "Convert Crewmates and kill the rest",
+    "color": "#a22929",
+    "xml": "<string name=\"TouRoleVampireIntroBlurb\">%s</string>"
+  },
+  {
+    "title": "Werewolf",
+    "image": "Werewolf.png",
+    "value": "Rampage to kill everyone",
+    "color": "#955a24",
+    "xml": "<string name=\"TouRoleWerewolfIntroBlurb\">%s</string>"
+  }
+]

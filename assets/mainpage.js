@@ -1,18 +1,12 @@
-let TABS = [];
+let TABS = []; // index: [{name, link}]
+let CACHE = {}; // loaded + edited entries, keyed by tab index
 let cur = 0;
 
-fetch("assets/layout.json")
+fetch("assets/tabs.json")
   .then((r) => r.json())
   .then((data) => {
-    TABS = data.tabs.map((t) => ({
-      ...t,
-      entries: t.entries.map((e) => ({
-        ...e,
-        _original: e.value,
-        _imgSrc: "",
-      })),
-    }));
-    render();
+    TABS = data;
+    loadTab(cur);
   });
 
 document.getElementById("btn-prev").onclick = () => go(cur - 1);
@@ -20,15 +14,28 @@ document.getElementById("btn-next").onclick = () => go(cur + 1);
 
 function go(idx) {
   cur = (idx + TABS.length) % TABS.length;
+  loadTab(cur);
+}
+
+async function loadTab(idx) {
+  if (!CACHE[idx]) {
+    const r = await fetch(TABS[idx].link);
+    const entries = await r.json();
+    CACHE[idx] = entries.map((e) => ({
+      ...e,
+      _original: e.value,
+      _imgSrc: "",
+    }));
+  }
   render();
 }
 
 function render() {
-  const tab = TABS[cur];
+  const entries = CACHE[cur];
+  if (!entries) return;
 
-  document.getElementById("tab-name").textContent = tab.name;
+  document.getElementById("tab-name").textContent = TABS[cur].name;
 
-  // Dots
   const dotsEl = document.getElementById("tab-dots");
   dotsEl.innerHTML = "";
   TABS.forEach((t, i) => {
@@ -38,24 +45,21 @@ function render() {
     dotsEl.appendChild(dot);
   });
 
-  // Cards
   const grid = document.getElementById("cards-grid");
   const template = document.getElementById("card-template");
   grid.innerHTML = "";
 
-  const sorted = [...tab.entries].sort((a, b) =>
-    a.title.localeCompare(b.title),
-  );
+  const sorted = [...entries].sort((a, b) => a.title.localeCompare(b.title));
 
-  sorted.forEach((e, i) => {
-    const origIdx = tab.entries.indexOf(e);
+  sorted.forEach((e) => {
+    const origIdx = entries.indexOf(e);
     const card = template.content.cloneNode(true);
     const root = card.querySelector("div");
 
-    // Apply color from layout.json as border + glow
     const color = e.color || "#333";
     root.style.borderColor = color;
     root.style.boxShadow = `0 0 12px ${color}66, inset 0 0 6px ${color}33`;
+    root.querySelector(".card-title").style.color = color;
 
     root.addEventListener("mouseenter", () => {
       root.style.boxShadow = `0 0 22px ${color}cc, inset 0 0 8px ${color}55`;
@@ -69,7 +73,6 @@ function render() {
     const imgEl = card.querySelector(".card-img");
     imgEl.style.filter = `drop-shadow(0 0 8px ${color})`;
 
-    // _imgSrc is a user upload override; otherwise use the path from layout.json
     const imgSrc = e._imgSrc || (e.image ? `assets/mira/${e.image}` : null);
     if (imgSrc) {
       const img = document.createElement("img");
@@ -83,7 +86,7 @@ function render() {
     const input = card.querySelector(".card-input");
     input.value = e.value;
     input.oninput = () => {
-      TABS[cur].entries[origIdx].value = input.value;
+      CACHE[cur][origIdx].value = input.value;
       buildXML();
     };
 
@@ -93,28 +96,10 @@ function render() {
   buildXML();
 }
 
-function pickImg(idx) {
-  const inp = document.createElement("input");
-  inp.type = "file";
-  inp.accept = "assets/mira/*";
-  inp.onchange = (e) => {
-    const file = e.target.files[0];
-    if (!file) return;
-    const reader = new FileReader();
-    reader.onload = (ev) => {
-      TABS[cur].entries[idx]._imgSrc = ev.target.result;
-      TABS[cur].entries[idx].image = file.name;
-      render();
-    };
-    reader.readAsDataURL(file);
-  };
-  inp.click();
-}
-
 function buildXML() {
   const lines = ['<?xml version="1.0" encoding="UTF-8"?>', "<resources>"];
-  TABS.forEach((t) => {
-    t.entries.forEach((e) => {
+  Object.values(CACHE).forEach((entries) => {
+    entries.forEach((e) => {
       if (e.xml && e.value !== e._original)
         lines.push("  " + e.xml.replace("%s", e.value));
     });

@@ -1,0 +1,492 @@
+[
+  {
+    "title": "Spectator",
+    "image": "Spectator.png",
+    "value": "Never participate, watch as the chaos unfolds in-game!",
+    "color": "#afafaf",
+    "xml": "<string name=\"TouRoleSpectatorTabDescription\">%s</string>"
+  },
+  {
+    "title": "Altruist",
+    "image": "Altruist.png",
+    "value": "Revive dead crewmates in groups.",
+    "color": "#660000",
+    "xml": "<string name=\"TouRoleAltruistTabDescription\">%s</string>"
+  },
+  {
+    "title": "Aurial",
+    "image": "Aurial.png",
+    "value": "Any player abilities used within your aura you will sense",
+    "color": "#b34d99",
+    "xml": "<string name=\"TouRoleAurialTabDescription\">%s</string>"
+  },
+  {
+    "title": "Cleric",
+    "image": "Cleric.png",
+    "value": "Cleanse negative effects off of crewmates and\\%nl\\%cast Barriers to stop any interactions altogether",
+    "color": "#00ffb2",
+    "xml": "<string name=\"TouRoleClericTabDescription\">%s</string>"
+  },
+  {
+    "title": "Deputy",
+    "image": "Deputy.png",
+    "value": "Camp crewmates, then shoot their killer in the meeting!",
+    "color": "#ffcc00",
+    "xml": "<string name=\"TouRoleDeputyTabDescription\">%s</string>"
+  },
+  {
+    "title": "Forensic",
+    "image": "Forensic.png",
+    "value": "Inspect crime scenes, then examine players to\\%nl\\%see if they were at the scene.",
+    "color": "#4d4dff",
+    "xml": "<string name=\"TouRoleForensicTabDescription\">%s</string>"
+  },
+  {
+    "title": "Engineer",
+    "image": "Engineer.png",
+    "value": "Vent around and fix sabotages remotely",
+    "color": "#fea50a",
+    "xml": "<string name=\"TouRoleEngineerTabDescription\">%s</string>"
+  },
+  {
+    "title": "Haunter",
+    "image": "Haunter.png",
+    "value": "Complete all your tasks without getting caught to reveal impostors!",
+    "color": "#d4d4d4",
+    "xml": "<string name=\"TouRoleHaunterTabDescription\">%s</string>"
+  },
+  {
+    "title": "Hunter",
+    "image": "Hunter.png",
+    "value": "Stalk players to get alerted when they use an ability.\\%nl\\%Once they use an ability, you may kill them.",
+    "color": "#29ab87",
+    "xml": "<string name=\"TouRoleHunterTabDescription\">%s</string>"
+  },
+  {
+    "title": "Imitator",
+    "image": "Imitator.png",
+    "value": "Use dead players to benefit the crew via imitation in meetings",
+    "color": "#b3d94d",
+    "xml": "<string name=\"TouRoleImitatorTabDescription\">%s</string>"
+  },
+  {
+    "title": "Investigator",
+    "image": "Investigator.png",
+    "value": "You can see everyone's footprints.",
+    "color": "#008787",
+    "xml": "<string name=\"TouRoleInvestigatorTabDescription\">%s</string>"
+  },
+  {
+    "title": "Jailor",
+    "image": "Jailor.png",
+    "value": "Jail crewmates to private talk to them, and\\%nl\\%execute them if they are an evildoer",
+    "color": "#a9a9a9",
+    "xml": "<string name=\"TouRoleJailorTabDescription\">%s</string>"
+  },
+  {
+    "title": "Lookout",
+    "image": "Lookout.png",
+    "value": "Watch other crewmates to see what roles interact with them",
+    "color": "#33ff66",
+    "xml": "<string name=\"TouRoleLookoutTabDescription\">%s</string>"
+  },
+  {
+    "title": "Mayor",
+    "image": "Mayor.png",
+    "value": "Lead the crew to victory!",
+    "color": "#6c4ca1",
+    "xml": "<string name=\"TouRoleMayorTabDescription\">%s</string>"
+  },
+  {
+    "title": "Medic",
+    "image": "Medic.png",
+    "value": "Protect a crewmate with a shield to defend them from attacks",
+    "color": "#006600",
+    "xml": "<string name=\"TouRoleMedicTabDescription\">%s</string>"
+  },
+  {
+    "title": "Medium",
+    "image": "Medium.png",
+    "value": "Follow ghosts to get clues from them",
+    "color": "#a680ff",
+    "xml": "<string name=\"TouRoleMediumTabDescription\">%s</string>"
+  },
+  {
+    "title": "Mirrorcaster",
+    "image": "Mirrorcaster.png",
+    "value": "Protect a player with a Magic Mirror.\\%nl\\%If they are directly attacked, then\\%nl\\%unleash the attack onto another player!",
+    "color": "#90a2c3",
+    "xml": "<string name=\"TouRoleMirrorcasterTabDescription\">%s</string>"
+  },
+  {
+    "title": "Monarch",
+    "image": "Monarch.png",
+    "value": "Knight crewmates to aid in meetings, but\\%nl\\%avoid knighting Evildoers.",
+    "color": "#ea535b",
+    "xml": "<string name=\"TouRoleMonarchTabDescription\">%s</string>"
+  },
+  {
+    "title": "Mystic",
+    "image": "Mystic.png",
+    "value": "Understand when and where kills happen",
+    "color": "#4d99e6",
+    "xml": "<string name=\"TouRoleMysticTabDescription\">%s</string>"
+  },
+  {
+    "title": "Oracle",
+    "image": "Oracle.png",
+    "value": "Bless crewmates to protect them in meetings, and\\%nl\\%make them confess in the meeting",
+    "color": "#bf00bf",
+    "xml": "<string name=\"TouRoleOracleTabDescription\">%s</string>"
+  },
+  {
+    "title": "Plumber",
+    "image": "Plumber.png",
+    "value": "Flush the vent system to kick venters out, and\\%nl\\%barricade vents to block them the next round",
+    "color": "#c16000",
+    "xml": "<string name=\"TouRolePlumberTabDescription\">%s</string>"
+  },
+  {
+    "title": "Politician",
+    "image": "Politician.png",
+    "value": "Campaign crewmates in hopes to become the Mayor! At least half of\\%nl\\%the innocent players must be campaigned to reveal successfully",
+    "color": "#660099",
+    "xml": "<string name=\"TouRolePoliticianTabDescription\">%s</string>"
+  },
+  {
+    "title": "Prosecutor",
+    "image": "Prosecutor.png",
+    "value": "Choose to exile anyone of your choosing",
+    "color": "#b38000",
+    "xml": "<string name=\"TouRoleProsecutorTabDescription\">%s</string>"
+  },
+  {
+    "title": "Seer",
+    "image": "Seer.png",
+    "value": "Reveal alliances of other players to find evildoers.",
+    "color": "#ffcc80",
+    "xml": "<string name=\"TouRoleSeerTabDescription\">%s</string>"
+  },
+  {
+    "title": "Sentry",
+    "image": "Sentry.png",
+    "value": "Place cameras that appear in Security.",
+    "color": "#6090bf",
+    "xml": "<string name=\"TouRoleSentryTabDescription\">%s</string>"
+  },
+  {
+    "title": "Sheriff",
+    "image": "Sheriff.png",
+    "value": "Kill off the impostors but don't kill crewmates",
+    "color": "#ffeb04",
+    "xml": "<string name=\"TouRoleSheriffTabDescription\">%s</string>"
+  },
+  {
+    "title": "Snitch",
+    "image": "Snitch.png",
+    "value": "Complete all your tasks to discover the Impostors.",
+    "color": "#d4b038",
+    "xml": "<string name=\"TouRoleSnitchTabDescription\">%s</string>"
+  },
+  {
+    "title": "Spy",
+    "image": "Spy.png",
+    "value": "Gain extra information on the Admin Table",
+    "color": "#cca3cc",
+    "xml": "<string name=\"TouRoleSpyTabDescription\">%s</string>"
+  },
+  {
+    "title": "Swapper",
+    "image": "Swapper.png",
+    "value": "Swap votes from one player to another during a meeting",
+    "color": "#66e666",
+    "xml": "<string name=\"TouRoleSwapperTabDescription\">%s</string>"
+  },
+  {
+    "title": "Sonar",
+    "image": "Sonar.png",
+    "value": "Track suspicious players to see where they go",
+    "color": "#009800",
+    "xml": "<string name=\"TouRoleSonarTabDescription\">%s</string>"
+  },
+  {
+    "title": "Transporter",
+    "image": "Transporter.png",
+    "value": "Choose two players to swap locations with one another",
+    "color": "#31e0ef",
+    "xml": "<string name=\"TouRoleTransporterTabDescription\">%s</string>"
+  },
+  {
+    "title": "Trapper",
+    "image": "Trapper.png",
+    "value": "Place traps around the map, revealing roles within them",
+    "color": "#a6d1b3",
+    "xml": "<string name=\"TouRoleTrapperTabDescription\">%s</string>"
+  },
+  {
+    "title": "Veteran",
+    "image": "Veteran.png",
+    "value": "Alert to attack whoever interacts with you.",
+    "color": "#998040",
+    "xml": "<string name=\"TouRoleVeteranTabDescription\">%s</string>"
+  },
+  {
+    "title": "Vigilante",
+    "image": "Vigilante.png",
+    "value": "Guess the roles of impostors mid-meeting to kill them!",
+    "color": "#ffff99",
+    "xml": "<string name=\"TouRoleVigilanteTabDescription\">%s</string>"
+  },
+  {
+    "title": "Warden",
+    "image": "Warden.png",
+    "value": "Fortify crewmates to prevent interactions with them",
+    "color": "#9900ff",
+    "xml": "<string name=\"TouRoleWardenTabDescription\">%s</string>"
+  },
+  {
+    "title": "Ambassador",
+    "image": "Ambassador.png",
+    "value": "Retrain yourself or fellow impostors into another role\\%nl\\%\\%b\\%Imp Killing cannot be a Power role\\%/b\\%\\%nl\\%\\%b\\%Imp Concealing/Support cannot be a Killing/Power role\\%/b\\%",
+    "color": "#d53f42",
+    "xml": "<string name=\"TouRoleAmbassadorTabDescription\">%s</string>"
+  },
+  {
+    "title": "Ambusher",
+    "image": "Ambusher.png",
+    "value": "Pursue a player, then ambush the closest player to them.\\%nl\\%If the player you ambush dies, then take their body with you.",
+    "color": "#d53f42",
+    "xml": "<string name=\"TouRoleAmbusherTabDescription\">%s</string>"
+  },
+  {
+    "title": "Blackmailer",
+    "image": "Blackmailer.png",
+    "value": "Silence a crewmate for the next meeting",
+    "color": "#d53f42",
+    "xml": "<string name=\"TouRoleBlackmailerTabDescription\">%s</string>"
+  },
+  {
+    "title": "Bomber",
+    "image": "Bomber.png",
+    "value": "Place bombs to kill several crewmates upon detonation at once",
+    "color": "#d53f42",
+    "xml": "<string name=\"TouRoleBomberTabDescription\">%s</string>"
+  },
+  {
+    "title": "Eclipsal",
+    "image": "Eclipsal.png",
+    "value": "Blind players to prevent them from seeing others",
+    "color": "#d53f42",
+    "xml": "<string name=\"TouRoleEclipsalTabDescription\">%s</string>"
+  },
+  {
+    "title": "Escapist",
+    "image": "Escapist.png",
+    "value": "Mark a location, then recall to the location at\\%nl\\%any time to flee the scene of the crime",
+    "color": "#d53f42",
+    "xml": "<string name=\"TouRoleEscapistTabDescription\">%s</string>"
+  },
+  {
+    "title": "Grenadier",
+    "image": "Grenadier.png",
+    "value": "Flashbang the crewmates to get sneaky kills",
+    "color": "#d53f42",
+    "xml": "<string name=\"TouRoleGrenadierTabDescription\">%s</string>"
+  },
+  {
+    "title": "Hypnotist",
+    "image": "Hypnotist.png",
+    "value": "Hypnotize crewmates to prevent them from\\%nl\\%distinguishing players under a mass hysteria",
+    "color": "#d53f42",
+    "xml": "<string name=\"TouRoleHypnotistTabDescription\">%s</string>"
+  },
+  {
+    "title": "Janitor",
+    "image": "Janitor.png",
+    "value": "Clean bodies to hide kills and crime scenes",
+    "color": "#d53f42",
+    "xml": "<string name=\"TouRoleJanitorTabDescription\">%s</string>"
+  },
+  {
+    "title": "Miner",
+    "image": "Miner.png",
+    "value": "Place interconnected vents around the map",
+    "color": "#d53f42",
+    "xml": "<string name=\"TouRoleMinerTabDescription\">%s</string>"
+  },
+  {
+    "title": "Morphling",
+    "image": "Morphling.png",
+    "value": "Sample players and morph into them to disguise yourself.\\%nl\\%Your sample clears at the beginning of every round.",
+    "color": "#d53f42",
+    "xml": "<string name=\"TouRoleMorphlingTabDescription\">%s</string>"
+  },
+  {
+    "title": "Parasite",
+    "image": "Parasite.png",
+    "value": "Overtake a victim to control their movement.\\%nl\\%Press the same button again to kill them, or wait for the timer.",
+    "color": "#d53f42",
+    "xml": "<string name=\"TouRoleParasiteTabDescription\">%s</string>"
+  },
+  {
+    "title": "Scavenger",
+    "image": "Scavenger.png",
+    "value": "Kill your given targets for a reduced cooldown.\\%nl\\%If you fail to kill them, you will get penalized.",
+    "color": "#d53f42",
+    "xml": "<string name=\"TouRoleScavengerTabDescription\">%s</string>"
+  },
+  {
+    "title": "Puppeteer",
+    "image": "Puppeteer.png",
+    "value": "Control crewmates to do your bidding!",
+    "color": "#d53f42",
+    "xml": "<string name=\"TouRolePuppeteerTabDescription\">%s</string>"
+  },
+  {
+    "title": "Spellslinger",
+    "image": "Spellslinger.png",
+    "value": "Hex all non-Impostors to set off a Hex Bomb",
+    "color": "#d53f42",
+    "xml": "<string name=\"TouRoleSpellslingerTabDescription\">%s</string>"
+  },
+  {
+    "title": "Swooper",
+    "image": "Swooper.png",
+    "value": "Turn invisible and sneakily kill from the shadows",
+    "color": "#d53f42",
+    "xml": "<string name=\"TouRoleSwooperTabDescription\">%s</string>"
+  },
+  {
+    "title": "Traitor",
+    "image": "Traitor.png",
+    "value": "Betray the crewmates with a new impostor role!",
+    "color": "#d53f42",
+    "xml": "<string name=\"TouRoleTraitorTabDescription\">%s</string>"
+  },
+  {
+    "title": "Undertaker",
+    "image": "Undertaker.png",
+    "value": "Drag bodies around to hide them from being reported",
+    "color": "#d53f42",
+    "xml": "<string name=\"TouRoleUndertakerTabDescription\">%s</string>"
+  },
+  {
+    "title": "Venerer",
+    "image": "Venerer.png",
+    "value": "Kill players to unlock ability perks. Your perks allow you\\%nl\\%to camouflage, sprint, and slow others down in your path.",
+    "color": "#d53f42",
+    "xml": "<string name=\"TouRoleVenererTabDescription\">%s</string>"
+  },
+  {
+    "title": "Warlock",
+    "image": "Warlock.png",
+    "value": "Charge your attack to 100% to kill crewmates in small bursts",
+    "color": "#d53f42",
+    "xml": "<string name=\"TouRoleWarlockTabDescription\">%s</string>"
+  },
+  {
+    "title": "Amnesiac",
+    "image": "Amnesiac.png",
+    "value": "Find a dead body to remember and become their role.",
+    "color": "#80b3ff",
+    "xml": "<string name=\"TouRoleAmnesiacTabDescription\">%s</string>"
+  },
+  {
+    "title": "Arsonist",
+    "image": "Arsonist.png",
+    "value": "Douse players and ignite to kill all nearby doused targets.",
+    "color": "#ff4c00",
+    "xml": "<string name=\"TouRoleArsonistTabDescription\">%s</string>"
+  },
+  {
+    "title": "Doomsayer",
+    "image": "Doomsayer.png",
+    "value": "Win by guessing the roles of \\%guessCount\\% players.",
+    "color": "#00ff80",
+    "xml": "<string name=\"TouRoleDoomsayerTabDescription\">%s</string>"
+  },
+  {
+    "title": "Glitch",
+    "image": "Glitch.png",
+    "value": "Hack players to stop their abilities momentarily,\\%nl\\%mimic into others to frame them.",
+    "color": "#00ff00",
+    "xml": "<string name=\"TouRoleGlitchTabDescription\">%s</string>"
+  },
+  {
+    "title": "Inquisitor",
+    "image": "Inquisitor.png",
+    "value": "Vanquish your Heretics or get them killed.\\%nl\\%You will win after every heretic dies.\\%nl\\%If they're all dead after a meeting ends,\\%nl\\%you'll leave \\%and\\% announce your victory",
+    "color": "#ce3e89",
+    "xml": "<string name=\"TouRoleInquisitorTabDescription\">%s</string>"
+  },
+  {
+    "title": "Chef",
+    "image": "Chef.png",
+    "value": "Feed the crewmates with cooked corpses.\\%nl\\%Once your quota is fed, leave in victory!",
+    "color": "#daa267",
+    "xml": "<string name=\"TouRoleChefTabDescription\">%s</string>"
+  },
+  {
+    "title": "Jester",
+    "image": "Jester.png",
+    "value": "Be as suspicious as possible, and get voted out!",
+    "color": "#ffbfcc",
+    "xml": "<string name=\"TouRoleJesterTabDescription\">%s</string>"
+  },
+  {
+    "title": "Juggernaut",
+    "image": "Juggernaut.png",
+    "value": "With each kill your kill cooldown decreases.",
+    "color": "#8c004c",
+    "xml": "<string name=\"TouRoleJuggernautTabDescription\">%s</string>"
+  },
+  {
+    "title": "Mercenary",
+    "image": "Mercenary.png",
+    "value": "Guard players to get gold upon interaction,\\%nl\\%then bribe the winners!",
+    "color": "#8c6699",
+    "xml": "<string name=\"TouRoleMercenaryTabDescription\">%s</string>"
+  },
+  {
+    "title": "Pestilence",
+    "image": "Pestilence.png",
+    "value": "Kill everyone in your path that interacts with you!",
+    "color": "#5f6870",
+    "xml": "<string name=\"TouRolePestilenceTabDescription\">%s</string>"
+  },
+  {
+    "title": "Spectre",
+    "image": "Spectre.png",
+    "value": "Complete all your tasks without being caught!",
+    "color": "#662961",
+    "xml": "<string name=\"TouRoleSpectreTabDescription\">%s</string>"
+  },
+  {
+    "title": "Plaguebearer",
+    "image": "Plaguebearer.png",
+    "value": "Infect everyone to become \\%color=#4D4D4DFF\\%Pestilence\\%/color\\%",
+    "color": "#e6ffb3",
+    "xml": "<string name=\"TouRolePlaguebearerTabDescription\">%s</string>"
+  },
+  {
+    "title": "Survivor",
+    "image": "Survivor.png",
+    "value": "Stay alive to win with any faction remaining",
+    "color": "#ffe64d",
+    "xml": "<string name=\"TouRoleSurvivorTabDescription\">%s</string>"
+  },
+  {
+    "title": "Vampire",
+    "image": "Vampire.png",
+    "value": "Bite other players to convert them or kill them",
+    "color": "#a22929",
+    "xml": "<string name=\"TouRoleVampireTabDescription\">%s</string>"
+  },
+  {
+    "title": "Werewolf",
+    "image": "Werewolf.png",
+    "value": "Rampage to kill quickly, increase your\\%nl\\%vision, and vent away temporarily",
+    "color": "#955a24",
+    "xml": "<string name=\"TouRoleWerewolfTabDescription\">%s</string>"
+  }
+]

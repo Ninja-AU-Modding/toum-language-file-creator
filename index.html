@@ -8,6 +8,8 @@
         <script
             src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
         <style>
+            html, body { height: 100%; }
+
             @font-face {
                 font-family: 'Brook';
                 src: url('/assets/BrookDemo.woff') format('woff');
@@ -23,10 +25,27 @@
             }
         </style>
     </head>
-    <body class="text-white min-h-screen px-6 pt-8 pb-40">
+    <body class="text-white h-screen overflow-hidden relative">
         <div id="stars"></div>
         <div id="stars2"></div>
         <div id="stars3"></div>
+
+        <p
+            class="absolute top-0 left-0 text-xs text-slate-400 p-4 pointer-events-none z-10">Background
+            credits: <span class="underline">Matt Marble</span>
+            (<span
+                class="underline">https://codepen.io/mattmarble/pen/qBdamQz</span>)</p>
+
+        <p
+            class="absolute top-5 left-0 text-xs text-slate-400 p-4 pointer-events-none z-10">Icon
+            credits: <span class="underline">AU Avengers</span>
+            (<span
+                class="underline">https://github.com/AU-Avengers</span>)</p>
+
+        <p
+            class="absolute top-10 left-0 text-xs text-slate-400 p-4 pointer-events-none z-10">Font
+            credits: <span class="underline">Malkiz, Quarties &
+                OrzechMC</span></p>
 
         <!-- Tab header -->
         <div class="flex items-center justify-center gap-4 mb-1.5">
@@ -47,7 +66,10 @@
             class="flex justify-center gap-1.5 mb-7 pb-1 border-b-[3px] border-white/20"></div>
 
         <!-- Cards -->
-        <div id="cards-grid" class="flex flex-wrap gap-5"></div>
+        <div
+            class="h-screen overflow-y-auto overscroll-contain px-6 pt-8 pb-40">
+            <div id="cards-grid" class="flex flex-wrap gap-5"></div>
+        </div>
 
         <!-- Bottom bar -->
         <div
@@ -63,20 +85,21 @@
         <!-- Card template (inspiration: https://tou-notepad.vercel.app/) -->
         <template id="card-template">
             <div
-                class="card-glow flex flex-col items-center p-3 rounded-xl border-2 w-40 relative cursor-pointer"
-                style="background-color: #000;">
+                class="card-glow flex flex-col items-center p-3 rounded-xl border-2 w-40 relative cursor-pointer bg-gray-900">
                 <div
-                    class="card-title font-brook text-[24px] font-bold text-white mb-1 text-center break-all"></div>
+                    class="card-title font-brook text-[24px] font-bold mb-1 text-center break-all"></div>
                 <div
                     class="card-img w-20 h-20 my-1 flex items-center justify-center rounded-lg overflow-hidden cursor-pointer">
                     <span class="font-brook text-[24px] text-[#888]">IMG</span>
                 </div>
                 <input type="text"
-                    class="card-input mt-1 text-[24px] w-full bg-black/40 border border-white/10 text-white px-2 py-1 rounded outline-none text-center focus:border-white/40 transition-colors"
+                    class="card-input mt-1 w-full bg-gray-900/40 border border-white/10 text-white px-2 py-1 rounded outline-none text-center focus:border-white/40 transition-colors"
                     placeholder="value...">
             </div>
         </template>
 
         <script src="assets/mainpage.js"></script>
+        <script src="assets/autosize.js"></script>
+        <script src="assets/autocarot.js"></script>
     </body>
 </html>

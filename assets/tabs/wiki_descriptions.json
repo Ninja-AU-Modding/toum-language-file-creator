@@ -1,0 +1,492 @@
+[
+  {
+    "title": "Spectator",
+    "image": "Spectator.png",
+    "value": "You don't participate in-game nor interact with players. All you can do is watch.",
+    "color": "#afafaf",
+    "xml": "<string name=\"TouRoleSpectatorWikiDescription\">%s</string>"
+  },
+  {
+    "title": "Altruist",
+    "image": "Altruist.png",
+    "value": "The Altruist is a Crewmate Protective role that can revive dead crewmates, but prevents meetings being called by themselves or the crewmates they revive.",
+    "color": "#660000",
+    "xml": "<string name=\"TouRoleAltruistWikiDescription\">%s</string>"
+  },
+  {
+    "title": "Aurial",
+    "image": "Aurial.png",
+    "value": "The Aurial is a Crewmate Investigative role that will be alerted whenever a player near them uses one of their abilities.",
+    "color": "#b34d99",
+    "xml": "<string name=\"TouRoleAurialWikiDescription\">%s</string>"
+  },
+  {
+    "title": "Cleric",
+    "image": "Cleric.png",
+    "value": "The Cleric is a Crewmate Protective that can protect crewmates by negating their negative effects, as well as placing barriers on them to prevent interactions.",
+    "color": "#00ffb2",
+    "xml": "<string name=\"TouRoleClericWikiDescription\">%s</string>"
+  },
+  {
+    "title": "Deputy",
+    "image": "Deputy.png",
+    "value": "The Deputy is a Crewmate Killing role that can camp other players. Once a camped player dies, the Deputy is alerted to their death. The following meeting, the Deputy may then attempt to shoot the killer of the camped player. If successful the killer dies and if not nothing happens.",
+    "color": "#ffcc00",
+    "xml": "<string name=\"TouRoleDeputyWikiDescription\">%s</string>"
+  },
+  {
+    "title": "Forensic",
+    "image": "Forensic.png",
+    "value": "The Forensic is a Crewmate Investigative role that can inspect crime scenes and examine players to see if they were at the crime scene, flashing red if they were there.",
+    "color": "#4d4dff",
+    "xml": "<string name=\"TouRoleForensicWikiDescription\">%s</string>"
+  },
+  {
+    "title": "Engineer",
+    "image": "Engineer.png",
+    "value": "The Engineer is a Crewmate Support role that can vent and fix sabotages remotely.",
+    "color": "#fea50a",
+    "xml": "<string name=\"TouRoleEngineerWikiDescription\">%s</string>"
+  },
+  {
+    "title": "Haunter",
+    "image": "Haunter.png",
+    "value": "The Haunter is a Crewmate Ghost who can do tasks. They will appear as a transparent player. If they finish all their tasks, all living players will see who the Impostors are. However, if an Impostor clicks them first, they will become a normal ghost. Impostors get a warning shortly before and when the Haunter finishes their tasks.",
+    "color": "#d4d4d4",
+    "xml": "<string name=\"TouRoleHaunterWikiDescription\">%s</string>"
+  },
+  {
+    "title": "Hunter",
+    "image": "Hunter.png",
+    "value": "The Hunter is a Crewmate Killing role that can stalk players during the round. If a stalked player uses an ability, they can be killed by the Hunter at any point in the game, even Crew.",
+    "color": "#29ab87",
+    "xml": "<string name=\"TouRoleHunterWikiDescription\">%s</string>"
+  },
+  {
+    "title": "Imitator",
+    "image": "Imitator.png",
+    "value": "The Imitator is a Crewmate Support role that can select a dead crewmate to imitate their role until they change targets. Certain roles are inaccessible if there are multiple living imitators.",
+    "color": "#b3d94d",
+    "xml": "<string name=\"TouRoleImitatorWikiDescription\">%s</string>"
+  },
+  {
+    "title": "Investigator",
+    "image": "Investigator.png",
+    "value": "The Investigator is a Crewmate Investigative role can see player's footprints throughout the game. Swooped players' footprints will not be visible to the Investigator.",
+    "color": "#008787",
+    "xml": "<string name=\"TouRoleInvestigatorWikiDescription\">%s</string>"
+  },
+  {
+    "title": "Jailor",
+    "image": "Jailor.png",
+    "value": "The Jailor is a Crewmate Power role that can jail other players. During a meeting, the Jailor can choose to execute their jailed player. (Unless the Jailor is an Imitator)",
+    "color": "#a9a9a9",
+    "xml": "<string name=\"TouRoleJailorWikiDescription\">%s</string>"
+  },
+  {
+    "title": "Lookout",
+    "image": "Lookout.png",
+    "value": "The Lookout is a Crewmate Investigative role that can watch other players during rounds. During meetings, they will see all roles who interact with each watched player.",
+    "color": "#33ff66",
+    "xml": "<string name=\"TouRoleLookoutWikiDescription\">%s</string>"
+  },
+  {
+    "title": "Mayor",
+    "image": "Mayor.png",
+    "value": "The Mayor is a Crewmate Power role that gains three votes and is revealed to all players, also changing their look in meetings.",
+    "color": "#6c4ca1",
+    "xml": "<string name=\"TouRoleMayorWikiDescription\">%s</string>"
+  },
+  {
+    "title": "Medic",
+    "image": "Medic.png",
+    "value": "The Medic is a Crewmate Protective role that can give a Shield to a player.",
+    "color": "#006600",
+    "xml": "<string name=\"TouRoleMedicWikiDescription\">%s</string>"
+  },
+  {
+    "title": "Medium",
+    "image": "Medium.png",
+    "value": "The Medium is a Crewmate Investigative role who can Mediate to see one ghost per use. Both the Medium and Ghost then have an arrow showing them where each other are at all times.",
+    "color": "#a680ff",
+    "xml": "<string name=\"TouRoleMediumWikiDescription\">%s</string>"
+  },
+  {
+    "title": "Mirrorcaster",
+    "image": "Mirrorcaster.png",
+    "value": "The Mirrorcaster is a Crewmate Protective role that can cast a Magic Mirror on a player to protect them. If attacked directly, the Mirrorcaster can then unleash onto another player.",
+    "color": "#90a2c3",
+    "xml": "<string name=\"TouRoleMirrorcasterWikiDescription\">%s</string>"
+  },
+  {
+    "title": "Monarch",
+    "image": "Monarch.png",
+    "value": "The Monarch is a Crewmate Power role that can hand out additional votes to other players.",
+    "color": "#ea535b",
+    "xml": "<string name=\"TouRoleMonarchWikiDescription\">%s</string>"
+  },
+  {
+    "title": "Mystic",
+    "image": "Mystic.png",
+    "value": "The Mystic is a Crewmate Investigative role that gets an alert when someone dies.",
+    "color": "#4d99e6",
+    "xml": "<string name=\"TouRoleMysticWikiDescription\">%s</string>"
+  },
+  {
+    "title": "Oracle",
+    "image": "Oracle.png",
+    "value": "The Oracle is a Crewmate Protective role that can get another player to confess (revealing their faction with \\%revealAccuracy\\%% accuracy if the Oracle dies) or can protect a player from meeting abilities.",
+    "color": "#bf00bf",
+    "xml": "<string name=\"TouRoleOracleWikiDescription\">%s</string>"
+  },
+  {
+    "title": "Plumber",
+    "image": "Plumber.png",
+    "value": "The Plumber is a Crewmate Support role that can place Barricades on vents and Flush anyone out of vents.",
+    "color": "#c16000",
+    "xml": "<string name=\"TouRolePlumberWikiDescription\">%s</string>"
+  },
+  {
+    "title": "Politician",
+    "image": "Politician.png",
+    "value": "The Politician is a Crewmate Power role that can reveal themselves to the crew as the Mayor, given that they have campaigned at least half of the crewmates.",
+    "color": "#660099",
+    "xml": "<string name=\"TouRolePoliticianWikiDescription\">%s</string>"
+  },
+  {
+    "title": "Prosecutor",
+    "image": "Prosecutor.png",
+    "value": "The Prosecutor is a Crewmate Power role that can Exile a player, applying five votes to a player of their choosing. They can also see who voted for whom, even if they're anonymous.",
+    "color": "#b38000",
+    "xml": "<string name=\"TouRoleProsecutorWikiDescription\">%s</string>"
+  },
+  {
+    "title": "Seer",
+    "image": "Seer.png",
+    "value": "The Seer is a Crewmate Investigative role that can reveal the alliance of other players.",
+    "color": "#ffcc80",
+    "xml": "<string name=\"TouRoleSeerWikiDescription\">%s</string>"
+  },
+  {
+    "title": "Sentry",
+    "image": "Sentry.png",
+    "value": "The Sentry is a Crewmate Support role that can deploy cameras around the map that function like Security cameras.",
+    "color": "#6090bf",
+    "xml": "<string name=\"TouRoleSentryWikiDescription\">%s</string>"
+  },
+  {
+    "title": "Sheriff",
+    "image": "Sheriff.png",
+    "value": "The Sheriff is a Crewmate Killing that can shoot a player to attempt to kill them. If Sheriff doesn't die to misfire, they will lose the ability to shoot.",
+    "color": "#ffeb04",
+    "xml": "<string name=\"TouRoleSheriffWikiDescription\">%s</string>"
+  },
+  {
+    "title": "Snitch",
+    "image": "Snitch.png",
+    "value": "The Snitch is a Crewmate Investigative role that can reveal the Impostors to themselves by finishing all their tasks. Upon completing all tasks, the Impostors will be revealed to the Snitch with an arrow and their red name.",
+    "color": "#d4b038",
+    "xml": "<string name=\"TouRoleSnitchWikiDescription\">%s</string>"
+  },
+  {
+    "title": "Spy",
+    "image": "Spy.png",
+    "value": "The Spy is a Crewmate Investigative role that gains extra information on the admin table. They not only see how many people are in a room, but see who is in every room.",
+    "color": "#cca3cc",
+    "xml": "<string name=\"TouRoleSpyWikiDescription\">%s</string>"
+  },
+  {
+    "title": "Swapper",
+    "image": "Swapper.png",
+    "value": "The Swapper is a Crewmate Power that can swap the votes of two players in a meeting. Their meeting vote areas will be swapped visually, and the votes will be swapped. If player 1 received the most votes, and you swap them with player 2, player 2 will now be ejected instead. ",
+    "color": "#66e666",
+    "xml": "<string name=\"TouRoleSwapperWikiDescription\">%s</string>"
+  },
+  {
+    "title": "Sonar",
+    "image": "Sonar.png",
+    "value": "The Sonar is a Crewmate Investigative role that can track other players to see their general position across the map, getting colored arrows towards all tracked players.",
+    "color": "#009800",
+    "xml": "<string name=\"TouRoleSonarWikiDescription\">%s</string>"
+  },
+  {
+    "title": "Transporter",
+    "image": "Transporter.png",
+    "value": "The Transporter is a Crewmate Support role that can transport two players, dead or alive, to swap their locations.",
+    "color": "#31e0ef",
+    "xml": "<string name=\"TouRoleTransporterWikiDescription\">%s</string>"
+  },
+  {
+    "title": "Trapper",
+    "image": "Trapper.png",
+    "value": "The Trapper is a Crewmate Investigative role that can place traps around the map. If someone stays in it for enough time and enough players go through, they will get a list of their roles in the next meeting in random order.",
+    "color": "#a6d1b3",
+    "xml": "<string name=\"TouRoleTrapperWikiDescription\">%s</string>"
+  },
+  {
+    "title": "Veteran",
+    "image": "Veteran.png",
+    "value": "The Veteran is a Crewmate Killing role that can go on alert and kill anyone who interacts with them.",
+    "color": "#998040",
+    "xml": "<string name=\"TouRoleVeteranWikiDescription\">%s</string>"
+  },
+  {
+    "title": "Vigilante",
+    "image": "Vigilante.png",
+    "value": "The Vigilante is a Crewmate Killing role that can guess roles of players in meetings. If they guess correctly, the other player will die. If not, they will die. ",
+    "color": "#ffff99",
+    "xml": "<string name=\"TouRoleVigilanteWikiDescription\">%s</string>"
+  },
+  {
+    "title": "Warden",
+    "image": "Warden.png",
+    "value": "The Warden is a Crewmate Protective role that can fortify players to prevent them from being interacted with. ",
+    "color": "#9900ff",
+    "xml": "<string name=\"TouRoleWardenWikiDescription\">%s</string>"
+  },
+  {
+    "title": "Ambassador",
+    "image": "Ambassador.png",
+    "value": "The Ambassador is an Impostor Power role that can retrain impostors into other impostor roles.",
+    "color": "#d53f42",
+    "xml": "<string name=\"TouRoleAmbassadorWikiDescription\">%s</string>"
+  },
+  {
+    "title": "Ambusher",
+    "image": "Ambusher.png",
+    "value": "The Ambusher is an Impostor Killing role that can pursue a player, getting an arrow to them. They may ambush the closest player next to them. If they manage to kill the player, they will drag their body into the shadows, teleporting back with the Ambusher.",
+    "color": "#d53f42",
+    "xml": "<string name=\"TouRoleAmbusherWikiDescription\">%s</string>"
+  },
+  {
+    "title": "Blackmailer",
+    "image": "Blackmailer.png",
+    "value": "The Blackmailer is an Impostor Support role that can stop a player from speaking (marked with \\%symbol\\%) in the next meeting",
+    "color": "#d53f42",
+    "xml": "<string name=\"TouRoleBlackmailerWikiDescription\">%s</string>"
+  },
+  {
+    "title": "Bomber",
+    "image": "Bomber.png",
+    "value": "The Bomber is an Impostor Killing role that can drop a bomb on the map, which detonates after \\%detonateDelay\\% second(s).",
+    "color": "#d53f42",
+    "xml": "<string name=\"TouRoleBomberWikiDescription\">%s</string>"
+  },
+  {
+    "title": "Eclipsal",
+    "image": "Eclipsal.png",
+    "value": "The Eclipsal is an Impostor Concealing role that can hinder the vision of all crewmates and neutrals alike, given that they are near the Eclipsal.",
+    "color": "#d53f42",
+    "xml": "<string name=\"TouRoleEclipsalWikiDescription\">%s</string>"
+  },
+  {
+    "title": "Escapist",
+    "image": "Escapist.png",
+    "value": "The Escapist is an Impostor Concealing role that can mark a location and then recall (teleport) to that location.",
+    "color": "#d53f42",
+    "xml": "<string name=\"TouRoleEscapistWikiDescription\">%s</string>"
+  },
+  {
+    "title": "Grenadier",
+    "image": "Grenadier.png",
+    "value": "The Grenadier is an Impostor Concealing role that can throw down a grenade that will blind all other players",
+    "color": "#d53f42",
+    "xml": "<string name=\"TouRoleGrenadierWikiDescription\">%s</string>"
+  },
+  {
+    "title": "Hypnotist",
+    "image": "Hypnotist.png",
+    "value": "The Hypnotist is an Impostor Support role that can hypnotize players. During a meeting they can release Mass Hysteria, which makes all hypnotized players (marked with \\%symbol\\%) have different visuals applied to players the following round.",
+    "color": "#d53f42",
+    "xml": "<string name=\"TouRoleHypnotistWikiDescription\">%s</string>"
+  },
+  {
+    "title": "Janitor",
+    "image": "Janitor.png",
+    "value": "The Janitor is an Impostor Support role that can clean dead bodies.",
+    "color": "#d53f42",
+    "xml": "<string name=\"TouRoleJanitorWikiDescription\">%s</string>"
+  },
+  {
+    "title": "Miner",
+    "image": "Miner.png",
+    "value": "The Miner is an Impostor Support role that can create vents.",
+    "color": "#d53f42",
+    "xml": "<string name=\"TouRoleMinerWikiDescription\">%s</string>"
+  },
+  {
+    "title": "Morphling",
+    "image": "Morphling.png",
+    "value": "The Morphling is an Impostor Concealing role that can Sample a player and Morph into it's appearance.",
+    "color": "#d53f42",
+    "xml": "<string name=\"TouRoleMorphlingWikiDescription\">%s</string>"
+  },
+  {
+    "title": "Parasite",
+    "image": "Parasite.png",
+    "value": "The Parasite can Overtake nearby non-impostors to take control of their movement. By default, while overtaken, the victim looks like the Parasite and cannot use abilities. You can watch them with a PiP camera and kill them at any time, or wait for the control timer to kill them.",
+    "color": "#d53f42",
+    "xml": "<string name=\"TouRoleParasiteWikiDescription\">%s</string>"
+  },
+  {
+    "title": "Scavenger",
+    "image": "Scavenger.png",
+    "value": "The Scavenger is an Impostor Killing role that gets new targets after every kill and when the round starts. If they kill their target, they get a reduced kill cooldown, but if they don't, their cooldown is increased significantly.",
+    "color": "#d53f42",
+    "xml": "<string name=\"TouRoleScavengerWikiDescription\">%s</string>"
+  },
+  {
+    "title": "Puppeteer",
+    "image": "Puppeteer.png",
+    "value": "The Puppeteer is an Impostor Power role that controls other players to kill for them. When a player is controlled, they must watch as they are forced to kill their fellow crewmates.",
+    "color": "#d53f42",
+    "xml": "<string name=\"TouRolePuppeteerWikiDescription\">%s</string>"
+  },
+  {
+    "title": "Spellslinger",
+    "image": "Spellslinger.png",
+    "value": "The Spellslinger is an Impostor Power role that can hex a player, priming them for detonation. Once all non-Impostors are hexed, they may set off a Hex Bomb after a set amount of time to win.",
+    "color": "#d53f42",
+    "xml": "<string name=\"TouRoleSpellslingerWikiDescription\">%s</string>"
+  },
+  {
+    "title": "Swooper",
+    "image": "Swooper.png",
+    "value": "The Swooper is an Impostor Concealing role that can temporarily turn invisible.",
+    "color": "#d53f42",
+    "xml": "<string name=\"TouRoleSwooperWikiDescription\">%s</string>"
+  },
+  {
+    "title": "Traitor",
+    "image": "Traitor.png",
+    "value": "The Traitor is an Impostor Power role that spawns after a meeting, in which the spawn conditions are suitable. The Traitor will always be a crewmate, and they may change to a few select roles.",
+    "color": "#d53f42",
+    "xml": "<string name=\"TouRoleTraitorWikiDescription\">%s</string>"
+  },
+  {
+    "title": "Undertaker",
+    "image": "Undertaker.png",
+    "value": "The Undertaker is an Impostor Support role that can drag dead bodies around the map.",
+    "color": "#d53f42",
+    "xml": "<string name=\"TouRoleUndertakerWikiDescription\">%s</string>"
+  },
+  {
+    "title": "Venerer",
+    "image": "Venerer.png",
+    "value": "The Venerer is an Impostor Concealing role that can kill players to gain new abilities, preventing others from catching them! However, the ability will be used immediately as they receive it, which will stack up.",
+    "color": "#d53f42",
+    "xml": "<string name=\"TouRoleVenererWikiDescription\">%s</string>"
+  },
+  {
+    "title": "Warlock",
+    "image": "Warlock.png",
+    "value": "The Warlock is an Impostor Killing role that can charge up attacks to wipe out the crew quickly.",
+    "color": "#d53f42",
+    "xml": "<string name=\"TouRoleWarlockWikiDescription\">%s</string>"
+  },
+  {
+    "title": "Amnesiac",
+    "image": "Amnesiac.png",
+    "value": "The Amnesiac is a Neutral Benign role that gains access to a new role from remembering a dead body’s role. Use the role you remember to win the game.",
+    "color": "#80b3ff",
+    "xml": "<string name=\"TouRoleAmnesiacWikiDescription\">%s</string>"
+  },
+  {
+    "title": "Arsonist",
+    "image": "Arsonist.png",
+    "value": "The Arsonist is a Neutral Killing role that wins by being the last killer alive.",
+    "color": "#ff4c00",
+    "xml": "<string name=\"TouRoleArsonistWikiDescription\">%s</string>"
+  },
+  {
+    "title": "Doomsayer",
+    "image": "Doomsayer.png",
+    "value": "The Doomsayer is a Neutral Evil role that wins by guessing \\%guessCount\\% players' roles.",
+    "color": "#00ff80",
+    "xml": "<string name=\"TouRoleDoomsayerWikiDescription\">%s</string>"
+  },
+  {
+    "title": "Glitch",
+    "image": "Glitch.png",
+    "value": "The Glitch is a Neutral Killing role that wins by being the last killer alive. They can Mimic into another player, or they can hack a player.",
+    "color": "#00ff00",
+    "xml": "<string name=\"TouRoleGlitchWikiDescription\">%s</string>"
+  },
+  {
+    "title": "Inquisitor",
+    "image": "Inquisitor.png",
+    "value": "The Inquisitor is a Neutral Outlier role that wins if their targets (Heretics) die. The only information provided is their roles, and it's up to the Inquisitor to identify those players (marked with \\%symbol\\% to the dead) and get them killed by any means necessary.",
+    "color": "#ce3e89",
+    "xml": "<string name=\"TouRoleInquisitorWikiDescription\">%s</string>"
+  },
+  {
+    "title": "Chef",
+    "image": "Chef.png",
+    "value": "The Chef is a Neutral Outlier role that wins with any other faction as long as they have served enough dead bodies to the crew.",
+    "color": "#daa267",
+    "xml": "<string name=\"TouRoleChefWikiDescription\">%s</string>"
+  },
+  {
+    "title": "Jester",
+    "image": "Jester.png",
+    "value": "The Jester is a Neutral Evil role that wins by getting themselves ejected.",
+    "color": "#ffbfcc",
+    "xml": "<string name=\"TouRoleJesterWikiDescription\">%s</string>"
+  },
+  {
+    "title": "Juggernaut",
+    "image": "Juggernaut.png",
+    "value": "The Juggernaut is a Neutral Killing role that wins by being the last killer alive. For each kill they get, their kill cooldown gets reduced.",
+    "color": "#8c004c",
+    "xml": "<string name=\"TouRoleJuggernautWikiDescription\">%s</string>"
+  },
+  {
+    "title": "Mercenary",
+    "image": "Mercenary.png",
+    "value": "The Mercenary is a Neutral Benign role that can only win by bribing players, allowing them to gain multiple win conditions.",
+    "color": "#8c6699",
+    "xml": "<string name=\"TouRoleMercenaryWikiDescription\">%s</string>"
+  },
+  {
+    "title": "Pestilence",
+    "image": "Pestilence.png",
+    "value": "The Pestilence is a Neutral Killing role that can kill and is invincible to everything but being exiled or guessing incorrectly. They win by being the last killer alive.",
+    "color": "#5f6870",
+    "xml": "<string name=\"TouRolePestilenceWikiDescription\">%s</string>"
+  },
+  {
+    "title": "Spectre",
+    "image": "Spectre.png",
+    "value": "The Spectre is a Neutral Evil Ghost role that wins the game by finishing their tasks before a living player has clicked on them.",
+    "color": "#662961",
+    "xml": "<string name=\"TouRoleSpectreWikiDescription\">%s</string>"
+  },
+  {
+    "title": "Plaguebearer",
+    "image": "Plaguebearer.png",
+    "value": "The Plaguebearer is a Neutral Killing role that needs to infect all other players to turn into the Pestilence.",
+    "color": "#e6ffb3",
+    "xml": "<string name=\"TouRolePlaguebearerWikiDescription\">%s</string>"
+  },
+  {
+    "title": "Survivor",
+    "image": "Survivor.png",
+    "value": "The Survivor is a Neutral Benign role that just needs to survive until the end of the game.",
+    "color": "#ffe64d",
+    "xml": "<string name=\"TouRoleSurvivorWikiDescription\">%s</string>"
+  },
+  {
+    "title": "Vampire",
+    "image": "Vampire.png",
+    "value": "The Vampire is a Neutral Killing role that wins by being the last killer(s) alive. They can bite, changing others into Vampires, or kill players.",
+    "color": "#a22929",
+    "xml": "<string name=\"TouRoleVampireWikiDescription\">%s</string>"
+  },
+  {
+    "title": "Werewolf",
+    "image": "Werewolf.png",
+    "value": "The Werewolf is a Neutral Killing role that wins by being the last killer alive. They can go on a rampage to gain the ability to kill.",
+    "color": "#955a24",
+    "xml": "<string name=\"TouRoleWerewolfWikiDescription\">%s</string>"
+  }
+]
